@@ -1,0 +1,110 @@
+.custom-tasks-header {
+  font-weight: bold;
+}
+
+.custom-tasks-message div.custom-cell:not(:last-child) {
+  border-right: 3px solid white;
+  padding: .1vw;
+} 
+
+.custom-tasks-header .custom-cell {
+  background-color: cadetblue;
+  min-height: 7vh;
+}
+
+.custom-cell {
+  background-color: azure;
+  min-height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-space {
+  height: 2vh;
+}
+
+.custom-chekbox {
+  width: 2vw;
+  height: 2vw;
+}
+
+.custom-icon {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.custom-sort-bgimg {
+  background-image: url(../img/icon_sort.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-size: 1.5vw;
+}
+
+.custom-tasks-text_and_edit div.custom-text:not(:last-child){
+  border-right: 3px solid white;
+} 
+
+.custom-text {
+  overflow: auto;
+  padding: 0 1vh;
+  max-height: 16vw;
+}
+
+.custom-icon-link-edit {
+  width: 2vw;
+  height: 2vw;
+  background-image: url(../img/icon_edit.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 2vw;
+}
+
+.custom-icon-link-edit:hover {
+  background-image: url(../img/icon_edit_active.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 2vw;
+}
+
+.custom-icon-link-add {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/icon_add.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 2vw;
+  text-decoration: none;
+}
+
+.custom-block-link {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-icon-link-add:hover {
+  background-image: url(../img/icon_add_active.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 2vw;
+  text-decoration: none;
+}
+
+.custom-menu-bottom {
+  background-color: #ccc;
+  height: 8vh; 
+}
+
+
+/* */
+.delete-border {
+  border: 1px solid black;
+}
+
+.delete-color {
+  background-color: yellow;
+}
+
+.delete-height {
+  height: 8vh; 
+}

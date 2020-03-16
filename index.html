@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задачник</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/tasks.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <script type="text/javascript" src="js/tasks.js" defer></script>
+</head>
+
+<body>
+  <div class="container-fluid" style="height: 100vh;">
+
+    <div class="container-fluid" style="height: 87%;">
+      <div class="row text-center" style="height: 8%;">
+        <div class="col-12">
+          <h1>Задачи</h1>
+        </div>
+      </div>
+      <div class="row text-center" style="height: 85%;">
+        <div class="col-12" style="background-color: cyan;">
+          <div class="row text-center custom-tasks-message custom-tasks-header">
+            <div class="col-2 custom-cell custom-sort-bgimg">Имя</div>
+            <div class="col-2 custom-cell custom-sort-bgimg">E-mail</div>
+            <div class="col-7 custom-cell">Описание задачи</div>
+            <div class="col-1 custom-cell custom-sort-bgimg">Статус</div>
+          </div>
+          <div class="row text-center custom-tasks-message">
+            <div class="col-12 custom-space"></div>
+          </div>
+
+          <div class="row text-center custom-tasks-message">
+            <div class="col-2 custom-cell">Имя</div>
+            <div class="col-2 custom-cell">E-mail</div>
+            <div class="col-7 custom-cell">
+              <div class="container-fluid">
+                <div class="row text-left custom-tasks-text_and_edit">
+                  <div class="col-10 custom-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                    aut deserunt atque laborum? Explicabo error cum hic natus unde atque assumenda corporis qui? Sint
+                    aperiam odit laboriosam atque dolorum eaque. Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Excepturi illo, iusto asperiores expedita officia ipsam exercitationem vero, eaque reiciendis
+                    non ut magni magnam fugit reprehenderit voluptatum aut suscipit totam cupiditate?</div>
+                  <div class="col-2  text-center custom-cell custom-icon-link-edit">
+                    <a href="#" class="custom-block-link">
+                      <div class="custom-block-link"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 custom-cell"><input type="checkbox" name="status" class="custom-chekbox" disabled="disabled"></div>
+          </div>
+          <div class="row text-center custom-tasks-message">
+            <div class="col-12 custom-space"></div>
+          </div>
+
+          <div class="row text-center custom-tasks-message">
+            <div class="col-2 custom-cell">Имя</div>
+            <div class="col-2 custom-cell">E-mail</div>
+            <div class="col-7 custom-cell">
+              <div class="container-fluid">
+                <div class="row text-left custom-tasks-text_and_edit">
+                  <div class="col-10 custom-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                    aut deserunt atque laborum? Explicabo error cum hic natus unde atque assumenda corporis qui? Sint
+                    aperiam odit laboriosam atque dolorum eaque. Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Excepturi illo, iusto asperiores expedita officia ipsam exercitationem vero, eaque reiciendis
+                    non ut magni magnam fugit reprehenderit voluptatum aut suscipit totam cupiditate?</div>
+                  <div class="col-2  text-center custom-cell custom-icon-link-edit">
+                    <a href="#" class="custom-block-link">
+                      <div class="custom-block-link"></div>
+                    </a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 custom-cell"><input type="checkbox" name="status" class="custom-chekbox" disabled="disabled"></div>
+          </div>
+          <div class="row text-center custom-tasks-message">
+            <div class="col-12 custom-space"></div>
+          </div>
+
+          <div class="row text-center custom-tasks-message">
+            <div class="col-2 custom-cell">Имя</div>
+            <div class="col-2 custom-cell">E-mail</div>
+            <div class="col-7 custom-cell">
+              <div class="container-fluid">
+                <div class="row text-left custom-tasks-text_and_edit">
+                  <div class="col-10 custom-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                    aut deserunt atque laborum? Explicabo error cum hic natus unde atque assumenda corporis qui? Sint
+                    aperiam odit laboriosam atque dolorum eaque. Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Excepturi illo, iusto asperiores expedita officia ipsam exercitationem vero, eaque reiciendis
+                    non ut magni magnam fugit reprehenderit voluptatum aut suscipit totam cupiditate?</div>
+                  <div class="col-2 text-center custom-cell custom-icon-link-edit">
+                    <a href="#" class="custom-block-link">
+                      <div class="custom-block-link"></div>
+                    </a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 custom-cell"><input type="checkbox" name="status" class="custom-chekbox" disabled="disabled"></div>
+          </div>
+          <div class="row text-center custom-tasks-message">
+            <div class="col-12 custom-space"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <nav aria-label="Page navigation example" style="height: 5%;">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row text-center align-items-center custom-menu-bottom">
+        <div class="col-1"><a href="#" data-toggle="modal" data-target="#exampleModal">Войти</a></div>
+        <div class="col-10"></div>
+        <div class="col-1 align-items-center custom-icon-link-add"><a href="#" data-toggle="modal"
+            data-target="#exampleModal_2">
+            <div class="custom-block-link"></div>
+          </a></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Введите логин и пароль</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="needs-validation" novalidate id="autorization" action="index.php" method="post">
+            <div class="form-group">
+              <label for="recipient-login" class="col-form-label">Login:</label>
+              <input type="text" name="login" class="form-control" id="recipient-login" required>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Please provide your login.</div>
+            </div>
+            <div class="form-group">
+              <label for="recipient-pass" class="col-form-label">Password:</label>
+              <input type="password" name="password" class="form-control" id="recipient-pass" required>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Please enter password.</div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" name="do_enter" form="autorization" class="btn btn-primary" value="Send">Войти</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="exampleModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Добавить задачу</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="needs-validation" novalidate id="addingTask" method="POST" action="index.php">
+            <div class="form-group">
+              <label for="recipient-name" for="validationCustom01" class="col-form-label">Имя:</label>
+              <input id="recipient-name" for="validationCustom01" class="form-control" type="text" name="name"
+                aria-describedby="inputGroupPrepend" required>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Please provide your name.</div>
+            </div>
+            <div class="form-group">
+              <label for="recipient-mail" class="col-form-label">E-mail:</label>
+              <input id="recipient-mail" class="form-control" type="email" name="email"
+                aria-describedby="inputGroupPrepend" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Please provide a valid E-mail.</div>
+            </div>
+            <div class="form-group">
+              <label for="message-text" for="validationCustomUsername" class="col-form-label">Текст задачи:</label>
+              <textarea id="message-text" class="form-control" name="text" aria-describedby="inputGroupPrepend"
+                required></textarea>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Please enter the text of a task.</div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" form="addingTask" name="add_task" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  
+
+  </div>
+
+</body>
+</html>
